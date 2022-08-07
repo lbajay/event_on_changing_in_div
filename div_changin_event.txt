@@ -1,0 +1,4 @@
+// any changes in tabled 
+    $('#tbl_body').bind("DOMSubtreeModified",function(){
+        alert('changed');
+    });
